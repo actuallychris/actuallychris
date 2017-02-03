@@ -27,6 +27,9 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none
+}
 body {background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg); background-color: #0066ff
 }
 #temp-read {
@@ -38,7 +41,7 @@ body {background-image: url(http://cdn.weatheravenue.com/img/background/backgrou
 #temp-box {
     width: 25%;
     background-color: lightcyan;
-    margin: 0 auto;
+    margin: auto auto;
     text-align: center;
 }
 #other-info {
