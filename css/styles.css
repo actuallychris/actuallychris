@@ -28,9 +28,15 @@ nav ul li {
     padding: 0;
 }
 a {
-    text-decoration: none
+    text-decoration: none;
+
 }
 body {background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg); background-color: #0066ff
+}
+h1 {
+    text-decoration: none;
+    background-color: black
+     color: white;
 }
 #temp-read {
     font-size: 1.6em
@@ -43,6 +49,7 @@ body {background-image: url(http://cdn.weatheravenue.com/img/background/backgrou
     background-color: lightcyan;
     margin: auto auto;
     text-align: center;
+
 }
 #other-info {
     width:50%;
@@ -50,3 +57,5 @@ body {background-image: url(http://cdn.weatheravenue.com/img/background/backgrou
     margin: 0 auto;
     text-align: center
 }
+
+@media (max-width: )

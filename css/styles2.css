@@ -1,0 +1,23 @@
+body {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media (max-width:450px) {
+    body{background: green;
+    background-size: 100%;}
+}
+@media (min-width:451px) and (max-width:750px){
+    body{background-image: url(../media/presidents/george_dubya_bush_on_a_shark.jpg);
+    background-size: 100%;}
+}
+@media (min-width:751px) and (max-width:1024px) {
+    body{background-image: url(../media/presidents/abe-lincoln-grizly-bear.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;}
+}
+@media (min-width: 1025px) {
+    body{background-image:url(http://orig04.deviantart.net/7445/f/2016/117/5/2/the_donald_by_sharpwriter-da0eh6b.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: .5}
