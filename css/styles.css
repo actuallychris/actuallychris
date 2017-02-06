@@ -32,12 +32,18 @@ nav ul li {
     width: 19%;
     margin: 0;
     padding: 0;
+    background-color: blue;
+    color: red;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
-
+a:hover {
+    margin: 5px;
+    background-color: white;
+}
 body {
     background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg);
     background-color: #0066ff
