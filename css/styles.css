@@ -58,4 +58,8 @@ h1 {
     text-align: center
 }
 
-@media (max-width: )
+@media (max-width: 500px) {
+    nav ul li {
+    display: list-item;
+    }
+}
