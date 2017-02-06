@@ -1,25 +1,31 @@
-/* Import Fonts from Google. Using Roboto*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+    /* Import Fonts from Google. Using Roboto*/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-size: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
+
+h1,h2,h3,h4,h5,h6
+{
     font-family: Roboto, sans-serif;
 }
-header, footer {
+
+header,footer {
     opacity: .8;
-    background-color:beige;
+    background-color: beige;
     padding: 0em;
     margin: 0em;
 }
 
+
 /* 1 em = the height of the pixels */
+
 header h2 {
     text-align: center;
 }
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -27,32 +33,38 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
+}
 
+body {
+    background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg);
+    background-color: #0066ff
 }
-body {background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg); background-color: #0066ff
-}
+
 h1 {
     text-decoration: none;
-    background-color: black
-     color: white;
+    background-color: black color: white;
 }
+
 #temp-read {
     font-size: 1.6em
 }
+
 #temp {
     font-size: 150%;
 }
+
 #temp-box {
-    width: 50%;
+    width: 25%;
     background-color: lightcyan;
     margin: auto auto;
     text-align: center;
-
 }
+
 #other-info {
-    width:50%;
+    width: 50%;
     background-color: lightblue;
     margin: 0 auto;
     text-align: center
@@ -60,6 +72,13 @@ h1 {
 
 @media (max-width: 500px) {
     nav ul li {
-    display: list-item;
+        display: list-item;
+    }}
+    @media (max-width: 600px) {
+        #temp-box {
+            width: 50%;
+            background-color: lightcyan;
+            margin: auto auto;
+            text-align: center;
+        }
     }
-}
