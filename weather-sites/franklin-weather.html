@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Franklin, ID | Weathergate - A Site to Weather any Storm</title>
-    <meta name="viewport" content="width=device-width", inital-scale="1.0">
+    <meta name="viewport" content="width=device-width">
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
     <link type="text/css" rel="stylesheet" href="/css/styles.css">
 </head>
@@ -19,12 +19,13 @@
         <section id="temp-box">
             <section id=temp>
                 <p>Temperature:</p>
-                <section id=temp-read>
+                <section id="temp-read">
                     <br>81</section>
                 <p>Hi:90 Lo:66</p>
             </section>
             <br> What's it like outside?:
-            <br><b>Sunny</b>
+            <br><b>Sunny <img src="../media/sun.gif" alt="Sunny" style="width:20px">
+    </b>
         </section>
 
         <section id="other-info">
@@ -34,6 +35,65 @@
             <br>
         </section>
 
+        <section id="hourly">
+            <h2>Hourly Forcast</h2>
+            <section id="hourly-data">
+                <table>
+                    <tr id="time">
+                        <td>12:00AM </td>
+                        <td>1:00AM </td>
+                        <td>2:00AM </td>
+                        <td>3:00AM </td>
+                        <td>4:00AM </td>
+                        <td>5:00AM </td>
+                        <td>6:00AM </td>
+                        <td>7:00AM </td>
+                        <td>8:00AM </td>
+                        <td>9:00AM </td>
+                        <td>10:00AM </td>
+                        <td>11:00AM </td>
+                        <td>12:00PM </td>
+                        <td>1:00AM </td>
+                        <td>2:00AM </td>
+                        <td>3:00AM </td>
+                        <td>4:00AM </td>
+                        <td>5:00AM </td>
+                        <td>6:00PM </td>
+                        <td>7:00PM </td>
+                        <td>8:00PM </td>
+                        <td>9:00PM </td>
+                        <td>10:00PM </td>
+                        <td>11:00PM </td>
+                    </tr>
+                    <tr>
+                        <td>67</td>
+                        <td>67</td>
+                        <td>69</td>
+                        <td>69</td>
+                        <td>69</td>
+                        <td>70</td>
+                        <td>69</td>
+                        <td>72</td>
+                        <td>74</td>
+                        <td>77</td>
+                        <td>79</td>
+                        <td>81</td>
+                        <td>84</td>
+                        <td>86</td>
+                        <td>88</td>
+                        <td>90</td>
+                        <td>90</td>
+                        <td>85</td>
+                        <td>83</td>
+                        <td>79</td>
+                        <td>74</td>
+                        <td>70</td>
+                        <td>68</td>
+                        <td>66</td>
+                    </tr>
+                </table>
+            </section>
+        </section>
     </main>
     <footer>
         <nav>
@@ -44,10 +104,16 @@
                 <li><a href="weather-sites/springfield-weather.html">Springfield, IL</a></li>
             </ul>
         </nav>
-
-        <a href="../media/iphone.pdf">Small Screen Design</a>
+        <br>
+        <br>
+        <ul>
+            <li> <a href="../media/iphone.pdf">Small Screen Design</a></li>
+            <li><a href="../media/android-phone-large.pdf">Medium Screen Design</a></li>
+            <li><a href="../media/ipad.pdf">Large Screen Design</a></li>
+        </ul>
         &copy; Christopher Smith | All Rights Reserved
         <br> Last Updated: 30 January 2017
     </footer>
 </body>
+
 </html>

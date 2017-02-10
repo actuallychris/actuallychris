@@ -1,18 +1,39 @@
-    /* Import Fonts from Google. Using Roboto*/
+/* Import Fonts from Google. Using Roboto*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Creating the basic CSS Rules*/
+
+
+/* Complete */
+
 body {
     margin: 0;
     padding: 0;
     font-size: 20px;
 }
 
-h1,h2,h3,h4,h5,h6
-{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Roboto, sans-serif;
 }
 
-header,footer {
+header h1 {
+    text-align: center;
+    margin: auto;
+}
+
+h1 a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+header,
+footer {
     opacity: .8;
     background-color: beige;
     padding: 0em;
@@ -26,24 +47,45 @@ header h2 {
     text-align: center;
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    width: 19%;
-    margin: 0;
-    padding: 0;
-    background-color: blue;
-    color: red;
+a {
+    text-decoration: underline;
+    color: darkslategrey;
 }
 
-a {
+
+/* creating a navigation menu */
+
+nav ul {
+    background-color: lightgreen;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    border-right: 1px solid black;
+}
+
+nav ul li a {
     text-decoration: none;
-    color: black;
+    display: block;
+    color: red;
+    text-align: center;
+    padding: .3em;
 }
-a:hover {
-    margin: 5px;
-    background-color: white;
+
+nav ul li a:hover {
+    margin: auto;
+    background-color: green;
+    font-weight: bold;
 }
+
+
+/* end of Navigation Creation */
+
 body {
     background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg);
     background-color: #0066ff
@@ -51,15 +93,22 @@ body {
 
 h1 {
     text-decoration: none;
-    background-color: black color: white;
+    background-color: black;
+    color: white;
 }
+
+
+/* End of Basic Media Rules*/
+
+
+/* Boxes size */
 
 #temp-read {
     font-size: 1.6em
 }
 
 #temp {
-    font-size: 150%;
+    font-size: 1.5em;
 }
 
 #temp-box {
@@ -76,15 +125,69 @@ h1 {
     text-align: center
 }
 
-@media (max-width: 500px) {
+#hourly {
+    background-color: aliceblue;
+}
+
+#hourly h2 {
+    text-align: center;
+}
+
+#hourly-data {
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+#time {
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+    opacity: .8;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#hourly table td {
+    border-right: .1em solid black;
+}
+
+
+/* Media Queries*/
+
+@media screen and (max-width: 32em) {
     nav ul li {
-        display: list-item;
-    }}
-    @media (max-width: 600px) {
-        #temp-box {
-            width: 50%;
-            background-color: lightcyan;
-            margin: auto auto;
-            text-align: center;
-        }
+        display: block;
+        text-align: left;
     }
+    #hourly {
+        display: none;
+    }
+    #temp {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    #temp-box {
+        width: 50%;
+        background-color: lightcyan;
+        margin: auto auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #temp-box {
+        font-weight: bold;
+    }
+    #other-info {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    #temp-box {}
+    #other-info {}
+}
