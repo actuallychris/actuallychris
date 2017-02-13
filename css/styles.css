@@ -122,7 +122,7 @@ h1 {
     width: 50%;
     background-color: lightblue;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 #hourly {
@@ -189,6 +189,24 @@ table {
 }
 
 @media screen and (min-width:1025px) {
-    #temp-box {}
-    #other-info {}
+    #temp-box {
+    float: left;
+        height: 400px;
+        width: 40%;
+        margin-bottom: 1em;
+    }
+    #other-info {
+    float: right;
+        height: 400px;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 50%;
+        margin-top: -150px;
+
+    }
+    #hourly {
+        clear: both;
+    }
 }
