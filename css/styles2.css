@@ -40,9 +40,11 @@ footer {
     margin: 0em;
 }
 
+
+/* 1 em = the height of the pixels */
+
 header h2 {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 a {
@@ -53,47 +55,40 @@ a {
 
 /* creating a navigation menu */
 
-nav {
-}
 nav ul {
     background-color: lightgreen;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
 }
 
 nav ul li {
     list-style-type: none;
+    margin: 0;
+    padding: 0.3em;
+    display: inline-block;
+    text-align: center;
+    width: 23%;
     border-right: 1px solid black;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    align-self: center;
-    flex-wrap: nowrap;
 }
 
 nav ul li a {
     text-decoration: none;
-    display: flex;
+    display: block;
     color: red;
     text-align: center;
     padding: 0em;
 }
 
 nav ul li a:hover {
+    margin: auto;
     background-color: green;
     font-weight: bold;
-    display: flex;
-    align-items: stretch;
 }
 
 
 /* end of Navigation Creation */
 
 body {
-    background-image: url(/media/sunny_background.jpg);
-    background-color: #0066ff;
+    background-image: url(http://cdn.weatheravenue.com/img/background/background.jpg);
+    background-color: #0066ff
 }
 
 h1 {
@@ -108,14 +103,8 @@ h1 {
 
 /* Boxes size */
 
-#Data {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 #temp-read {
-    font-size: 1em;
+    font-size: 1.6em
 }
 
 #temp {
@@ -123,33 +112,30 @@ h1 {
 }
 
 #temp-box {
+    width: 25%;
     background-color: lightcyan;
-    flex-wrap: wrap;
-    width: 400px;
+    margin: auto auto;
     text-align: center;
 }
 
 #other-info {
-    flex-wrap: wrap;
-    width: 400px;
-    text-align: center;
+    width: 50%;
     background-color: lightblue;
+    margin: 0 auto;
+    text-align: center;
 }
-/* Hourly Data*/
+
 #hourly {
-    flex-direction: column;
-    align-items: center;
     background-color: aliceblue;
 }
 
 #hourly h2 {
-    display: flex;
-
+    text-align: center;
 }
 
 #hourly-data {
     overflow: scroll;
-    flex: 0 1 auto;
+    white-space: nowrap;
 }
 
 #time {
@@ -159,13 +145,68 @@ h1 {
 table {
     border: 1px solid black;
     opacity: .8;
-    display: flex;
-    align-content: center;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
     border-collapse: collapse;
 }
 
 #hourly table td {
     border-right: .1em solid black;
-    text-align: center;
 }
-/*end of Hourly Stuff */
+
+
+/* Media Queries*/
+
+@media screen and (max-width: 32em) {
+    nav ul li {
+        display: block;
+        text-align: left;
+        border-right: none;
+    }
+    #hourly {
+        display: none;
+    }
+    #temp {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    #temp-box {
+        width: 50%;
+        background-color: lightcyan;
+        margin: auto auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #temp-box {
+        font-weight: bold;
+    }
+    #other-info {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    #temp-box {
+    float: left;
+        height: 400px;
+        width: 40%;
+        margin-bottom: 1em;
+    }
+    #other-info {
+    float: right;
+        height: 400px;
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 50%;
+        margin-top: -150px;
+
+    }
+    #hourly {
+        clear: both;
+    }
+}
