@@ -56,33 +56,37 @@ a {
 nav {
 }
 nav ul {
-    background-color: lightgreen;
+    background-color: lightskyblue
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    height: 2em;
 }
 
 nav ul li {
     list-style-type: none;
-    border-right: 1px solid black;
+    border-radius: 1px solid black;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     align-self: center;
     flex-wrap: nowrap;
+    flex-shrink: 0;
+    border-radius: .2em;
+    width: 20%;
 }
 
 nav ul li a {
     text-decoration: none;
     display: flex;
-    color: red;
+    color: black;
     text-align: center;
     padding: 0em;
 }
 
 nav ul li a:hover {
-    background-color: green;
+    background-color: skyblue;
     font-weight: bold;
     display: flex;
     align-items: stretch;
@@ -106,10 +110,14 @@ h1 {
 
 
 /* Boxes size */
+#monkeyking {
+    width: 85%;
+}
+
 #monkey {
-    display: inline-flex;
-    justify-content: center;
-    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    width: 30%;
 }
 #not-found {
     display: flex;

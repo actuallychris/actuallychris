@@ -108,7 +108,7 @@ h1 {
 
 /* Boxes size */
 
-#Data {
+#data {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
