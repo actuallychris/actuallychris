@@ -136,6 +136,7 @@ h1 {
     flex-wrap: wrap;
     width: 400px;
     text-align: center;
+    margin: 1em;
 }
 
 #other-info {
@@ -143,6 +144,7 @@ h1 {
     width: 400px;
     text-align: center;
     padding: 1em;
+    margin: 1em;
     background-color: lightcyan;
 }
 #wireframes {
