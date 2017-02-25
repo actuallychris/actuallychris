@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+.big {
+    display: flex;
+
+}
+.content {
+    display: flex;
+    width: 80%;
+    border: 1px solid;
+
+}
+
+.red {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+
+}
+.green {
+    flex: 1 auto;
+    width: 30%;
+    height: 100px;
+    background-color: green;
+
+}
+.yellow {
+    flex: 1 auto;
+    width: 30%;
+    height: 100px;
+    background-color: gold;
+
+}
+.blue {
+    flex: 1 auto;
+    width: 30%;
+    height: 100px;
+    background-color: blue;
+
+}
+.grey {
+
+    width: 100%;
+        height:50px;
+    background-color: grey;
+    justify-content: space-between;
+}
+.grey ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+.grey ul li {
+    background-color: orange;
+    width: 100%;
+        flex: 0 0 6em;
+        margin: 0 .5em;
+}
