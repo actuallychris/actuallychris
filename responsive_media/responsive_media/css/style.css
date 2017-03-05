@@ -50,8 +50,9 @@ h1 {
 /*	Background Images - use with Small screens */
 
 .page-header {
-background-image: url(../images/banner_400.jpg)
-}
+    background-image: url(../images//logo_50.png), url(../images/banner_400.jpg);
+    background-position: right, left;
+    background-repeat: no-repeat;    }
 
 
 /*******************************
@@ -173,8 +174,9 @@ background-image: url(../images/banner_400.jpg)
     }
     /*	Background Images - Use with medium screens */
     .page-header {
-background-image: url(../images/banner_800.jpg)
-    }
+        background:  url(../images/logo_100.png), url(../images/banner_800.jpg);
+        background-position: right, left;
+        background-repeat: no-repeat;    }
     .page-nav {
         position: relative;
     }
@@ -220,7 +222,9 @@ background-image: url(../images/banner_800.jpg)
     }
     /*	Background Images - Use with large screens */
     .page-header {
-background-image: url(../images/banner_1200.jpg)
+        background:  url(../images/logo_150.png), url(../images/banner_1200.jpg);
+        background-position: right, left;
+        background-repeat: no-repeat;
     }
     .page-nav li {
         flex: 0 1 10%;
