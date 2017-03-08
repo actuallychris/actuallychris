@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Home Page | Weathergate</title>
+        <title>API Presentations | Weathergate</title>
         <meta name="viewport" content="width=device-width">
         <link type="text/css" rel="stylesheet" href="/css/normalize.css">
         <link type="text/css" rel="stylesheet" href="../../css/styles.css">
@@ -21,24 +21,25 @@
             </nav>
         </header>
         <main>
-            <title>Javascript Application programming interface</title>
-            <h2>What are API's?</h2>
+            <h2>Javascript Application programming interface</h2>
+            <h3>What are API's?</h3>
             <p>An Application Programming Interface (API for short) is a list of commands as well as the format of those commands that one program can send to another. It is used so that individual programs can communicate with one another directly and use each other's functions.</p> <br>
             <p>These are very important in building web sites because they are what allow us to be able to access things outside of our specific website (such as sharing content directly to facebook or to grab data for our website from an external source)</p> <br>
-            <p>In addition, they are the building blocks of </p>
-            <h2>How Do we implement API's?</h2>
+            <p>In addition, they are the building blocks of action within webpages.</p>
+            <h3>How Do we implement API's?</h3>
             <p>To implement API's, we will implement a script within our javascript files (or within our head of our document) and then we will put somthing in the body so that we can access the API.</p>
             <p>Here is an example of the code of an API to embed twitter into your site</p>
             <p><code>class="twitter-share-button"
                   href="https://twitter.com/intent/tweet?text=Hello%20world"
-                  data-size="large"> (<b>This is the HTML Side of the API</b>)
+                data-size="large"> (<strong>This is the HTML Side of the API</strong>)
                 Tweet &lt;br&gt;
                 var tweetQuote = quotes[randNum].split(' ').join('%20');
                 tweetQuote = tweetQuote.split('&lt;br&gt;').join('');
                 tweetQuote = "https://twitter.com/intent/tweet?text=" + tweetQuote.split('"').join('')
                 $('.twitter-share-button').attr('href', tweetQuote); (<Strong>This is the Javascript side of the Code.</Strong>)
                 </code></p>
-            <p>For a good example of use of API's, go to <a href="../../quote-site-example/index.html">API Site usage example</a> This is a site that helps us understand how we can implement API's into our respective sites.</p>
+            <p>For a good example of use of API's, go to <a href="../../quote-site-example/index.html">this example of using API's in a site</a> This is a site that helps us understand how we can implement API's into our respective sites.</p>
+            <a href="../../404.html">API example</a>
         </main>
         <footer>
             <p>&copy; Christopher Smith | All Rights Reserved except as required by law</p>
