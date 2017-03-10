@@ -101,6 +101,50 @@ nav ul li a:hover {
 
 
 /* end of Navigation Creation */
+/* Beginning of Footer Creation */
+
+
+footer ul {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    width: 33%;
+}
+
+footer ul li a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: .33em 20%;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+footer ul li a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+}
+
+
+
 
 body {
     background-image: url(/media/pictures/index-background.jpg);
@@ -191,7 +235,6 @@ table {
     border-right: .1em solid black;
     text-align: center;
 }
-
 
 /*end of Hourly Stuff */
 
