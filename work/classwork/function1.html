@@ -1,0 +1,42 @@
+<script type="text/Javascript">
+/*Input: a a value in quarts
+*Processing: convert the volume from quarts to liters
+*Output: the value in Liters
+*/
+function Multiply() {
+
+
+var num1 = document.getElementById('g').value;
+var num2 = document.getElementById('S').value;
+if (num1 == "") {
+    num1=0;
+}
+    if (num2 == ""){
+        num2=0;
+    }
+
+    var mult = num1 * num2;
+document.getElementById('output').innerHTML = mult
+}
+    function Add() {
+
+        var num1 = document.getElementById('g').value;
+        var num2 = document.getElementById('S').value;
+        if (num1 == "") {
+            num1=0;
+        }
+        if (num2 == ""){
+            num2=0;
+        }
+
+        var mult = num1 + num2;
+        document.getElementById('output').innerHTML = mult;
+    }
+</script>
+</head>
+<body>
+<input type="number" id=S size="7" required>
+<input type= "number" id=g size="5" required >
+<button type="button" onclick="Multipy()">*</button>
+    <button type="button" onclick="Add()">+</button>
+    <span id="output"></span>
