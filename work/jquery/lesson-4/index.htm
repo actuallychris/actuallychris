@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    <!--Key for Weather Underground - 955436956ba74696 -->
 <head>
     <meta charset="UTF-8">
     <title>Alcove Digital Systems</title>
@@ -9,7 +9,19 @@
     <script>
         $(function () {
             // jQuery Code goes here
+                var  toggleStyle = function() {
+                var inputFields = $('input[type="text"]');
 
+                if( inputFields.css('background-color') === 'rgb(255, 0, 0)') {
+                    // Set Backgorund color to White
+                    inputFields.css('background-color', 'rgb(255, 255, 255)');
+                }
+                else {
+                    // Set background Color to Red
+                    inputFields.css('background-color', 'rgb(255, 255, 255)');
+                }
+            }
+                $('#ReqAQuoteBtn').click(toggleStyle);
         })
     </script>
 </head>
@@ -132,5 +144,7 @@
         </div>
     </div>
 </body>
+    <script src="js/jquery-3.0.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </html>
