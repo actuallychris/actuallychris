@@ -27,21 +27,32 @@ $(function () {
             dataType: "jsonp",
             success: function (data) {
                 console.log(data);
-                var location = data['location']['city'];
+                var city = data['location']['city'];
+                var state = data['location']['state'];
                 var temp_f = data['current_observation']['temp_f'];
-                temp.text(temp_f);
-                alert("Current temperature in " + location + " is: " + temp_f);
+                var feel = data['current_observation']['feelslike_f'];
+                var summary = data['current_observation']['weather'];
+                var icon = data['current_observation']['icon_url'];
+                var precip = data['current_observation']['precip_today_in'];
+
+                var cur_location=$("#citydisplay");
+                var cur_temp=$("#currentTemp");
+                var feelsLike=$("#feelsLike");
+                var cur_sum=$("#summary");
+                var cur_precip=$("#precip");
+
+
+                // This displays current data
+                $("title").prepend(city + ", " + state + "|" );
+                cur_location.html(city + ", " + state);
+                feelsLike.html("Feels Like" + feel + "F");
+                cur_sum.html(summary);
+                cur_precip.html("Today's Precipitation" + precip + " in.");
+                $("#icon").attr("src", icon);
+
             }
         });
     }
-    ajaxFromLocalJson("Franklin");
-    ajaxFromAPI();
-
-
-
-
-
-
     $("#cover").fadeOut(250);
 }
 });
