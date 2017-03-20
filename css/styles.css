@@ -48,8 +48,8 @@ header h2 {
 }
 
 a {
-    text-decoration: underline;
-    color: darkslategrey;
+    text-decoration-style: none;
+    color: lightblue;
 }
 
 
