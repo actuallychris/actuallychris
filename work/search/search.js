@@ -16,4 +16,4 @@ $('#query').keyup(function () {
         $("#searchResults").html(output); // send results to the page
     }); // end getJSON
 }); // end onkeyup
-w
+
