@@ -1,0 +1,4 @@
+$.each(data.pokemon, function(key, value) {
+    console.log(value.pokemon)
+});
+
