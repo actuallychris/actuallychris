@@ -3,6 +3,9 @@ $('#query').keyup(function () {
     var rExp = new RegExp(value, "i");
     $.getJSON("//autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
         console.log(data); // test for JSON received
+
+
+
         // Begin building output
         var output = '<ol>';
         $.each(data.RESULTS, function (key, val) {
