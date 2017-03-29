@@ -5,18 +5,26 @@ $('#query').keyup(function () {
         console.log(data); // test for JSON received
 
 
-
         // Begin building output
         var output = '<ol>';
-        $.each(data.RESULTS, function (key, val) {
-            if (val.name.search(rExp) != -1) {
-                output += '<li>';
-                output += '<a href="//www.wunderground.com' + val.l + '" title="See results for ' + val.name + '">' + val.name + '</a>';
-                output += '</li>';
-            }
-        }); // end each
-        output += '</ol>';
+        $("#forcast").html(data.current_observation.weather);
+        $("#windDirection").html(data.current_observation.wind_dir);
+        $("#precipitation").html(data.current_observation.precip_today_metric);
+        $("#location").html(data.location.city + ", " + data.location.state);
+
+        $("#highLow").html()
+
         $("#searchResults").html(output); // send results to the page
     }); // end getJSON
 }); // end onkeyup
 
+function setData(data) {
+    console.log("Setting Data.");
+    //reset the display search results
+    $("#searchResults").html("");
+    //document.getElementById("searchBar").setAttribute("value", " "); //this kills the results display for some reason
+    //$("main").show();
+
+
+
+}
