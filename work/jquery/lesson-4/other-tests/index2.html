@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--Key for Weather Underground - 955436956ba74696 -->
 
 <head>
     <meta charset="UTF-8">
@@ -9,16 +10,30 @@
     <script>
         // jQuery Code goes here
         $(function () {
+            var inputFields = $('input[type="text"]');
+          var  toggleStyle = function () {
 
-            var nameVal = $('input[name="nameVal"]');
-
-            function FillEmpty() {
-                if (nameVal.val() == '') {
-                    nameVal.val("John Doe")
+                if (inputFields.css('background-color') === 'rgb(255, 0, 0)') {
+                    // Set Backgorund color to White
+                    inputFields.css('background-color', 'rgb(255, 255, 255)');
+                } else {
+                    // Set background Color to Red
+                    inputFields.css('background-color', 'rgb(255, 0, 0)');
                 }
             }
-            $('#ReqAQuoteBtn').click(FillEmpty);
+            $('#ReqAQuoteBtn').click(toggleStyle);
 
+     $('.coreValues').prepend("<li><strong>This is Brand New !!</strong>");
+
+            $("<li><strong>This is also new !!</strong>").prependTo('.coreValues');
+
+            var nameVal() = $('input[name="nameVal"]');
+            function FillEmpty() {
+                if (nameVal.val() == "" ) {
+                    nameVal.val("John Doe")
+                }    $('#ReqAQuoteBtn').click(FillEmpty);
+
+            }
         })
     </script>
 </head>
@@ -97,11 +112,12 @@
                         <br>
                     </p>
                     <ul class="coreValues">
-                        <li><a href="toggle_button_begin.htm">Toggle Button</a></li>
-                        <li><a href="fruit_basket_begin.htm">Fruit Basket</a></li>
-                        <li><a href="drop_down_menu_begin.htm">Dropdown Menu</a></li>
-                        <li><a href="insert_html_begin.htm">Insert HTML</a></li>
-                        <li><a href="animated_menu_begin.htm">Animated Menu</a></li>
+                        <li>Innovative Ideas</li>
+                        <li>Ownership</li>
+                        <li>Frugality</li>
+                        <li>Integrity</li>
+                        <li>Trustworthiness</li>
+                        <li>Customer Obsession</li>
                     </ul>
                 </div>
                 <div class="boxes box2">

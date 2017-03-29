@@ -6,4 +6,4 @@ $(function() {
     $("#main-footer").load("/html/footer.html");
 });
 
-
+console.log();
