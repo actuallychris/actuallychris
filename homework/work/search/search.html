@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Center</title>
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="search.css" media="screen">
+</head>
+    <!-- *********************************************
+* Who Did You Collaborate With On This Activity?
+* 1.Christopher Smith
+* 2.Steven Chamberlain
+* 3.Dalen Ward
+* 4.Austin Bowler
+* 5.
+* ******************************************** -->
+<body>
+    <form method="get" action="https://autocomplete.wunderground.com/aq" id="searchform">
+        <input type="search" name="query" id="query">
+        <input type="submit" name="submit" value="Search" id="send">
+    </form>
+    <!--    Display the search results here  -->
+    <section id="searchResults">
+        <h2>Search results</h2>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>

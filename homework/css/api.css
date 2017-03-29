@@ -1,0 +1,125 @@
+/* CSS Rules for API powerpoint */
+
+/* Import Fonts from Google. Using Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* Creating the basic CSS Rules*/
+
+body {
+    margin: 0;
+    padding: 0em;
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin: auto;
+}
+
+h1 a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+header,
+footer {
+    opacity: .8;
+    background-color: beige;
+    padding: 0em;
+    margin: 0em;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+
+/* creating a navigation menu */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+
+    width: 23%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: .33em 20%;
+    flex-wrap: wrap;
+    flex-grow: 0;
+}
+
+nav ul li a:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: stretch;
+    border-radius: 10px;
+}
+
+
+/* end of Navigation Creation */
+
+body {
+    background-image: url(/media/pictures/index-background.jpg);
+    background-color: #0066ff;
+}
+
+h1 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+/* End of Basic Media Rules*/
+
+
+/* Boxes size */
+
+table {
+    border: 1px solid black;
+    opacity: .8;
+    display: flex;
+    align-content: center;
+    border-collapse: collapse;
+}
