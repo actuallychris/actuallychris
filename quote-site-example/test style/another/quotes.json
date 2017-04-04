@@ -1,4 +1,10 @@
-var Quote_List[
+[
+    {
+        "id": 0,
+        "Quote": "He died not for men, but for each man. If each man had been the only man made, He would have done no less.",
+        "Topic": ["Atonement"],
+        "Author": "C.S. Lewis"
+    },
     {
         "id": 1,
         "Quote": "Don't worry! It isn't as bad as you sometimes think it is. It all works out in the end. Put your trust in God and move forward with faith and the confidence in the future. The Lord will not forsake us",
@@ -152,7 +158,7 @@ var Quote_List[
         "Author": "Benjamin Franklin",
         "Topic": [
             "Adversity",
-            "Words of Wisdom"
+            "Words-of-Wisdom"
         ]
     },
     {
@@ -648,7 +654,7 @@ var Quote_List[
         "id": 65,
         "Quote": "Prayer is the infinite in man seeking the infinite in God",
         "Topic": [
-            "Divine Nature, Prayer"
+            "Divine Nature", "Prayer"
         ],
         "Author": "LeGrand Richards"
 
@@ -1101,22 +1107,22 @@ var Quote_List[
     },
     {
         "id": 149,
-        "Quote": "Those who are obedient to the Lord's commandments and who faithfully observe the word of wisdom are promised particular blessings.",
-        "Topic": ["Word of Wisdom"],
+        "Quote": "Those who are obedient to the Lord's commandments and who faithfully observe the word-of-wisdom are promised particular blessings.",
+        "Topic": ["Word-of-Wisdom"],
         "Author": "Thomas S. Monson"
 
     },
     {
         "id": 150,
-        "Quote": "The Word of Wisdom does not promise you perfect health, but it teaches how to keep the body you were born with in the best condition and your mind alert to the delicate spiritual promptings",
-        "Topic": ["Word of Wisdom"],
+        "Quote": "The Word-of-Wisdom does not promise you perfect health, but it teaches how to keep the body you were born with in the best condition and your mind alert to the delicate spiritual promptings",
+        "Topic": ["Word-of-Wisdom"],
         "Author": "Boyd K. Packer"
 
     },
     {
         "id": 151,
         "Quote": "Faithfulness in obeying the commandments and keeping our covenants will protect us from being deceived.",
-        "Topic": ["Word of Wisdom"],
+        "Topic": ["Word-of-Wisdom"],
         "Author": "Robert D. Hales"
 
     },
@@ -1125,7 +1131,7 @@ var Quote_List[
         "Quote": "Life is Fragile, Handle with Prayer",
         "Topic": [
             "Prayer",
-            "Words of Wisdom"
+            "Words-of-Wisdom"
         ],
         "Author": "Harold B. Lee"
 
@@ -1133,91 +1139,91 @@ var Quote_List[
     {
         "id": 160,
         "Quote": "A small leak will sink a great ship.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Benjamin Franklin"
 
     },
     {
         "id": 161,
         "Quote": "Early to bed and early to rise, makes a man healthy, wealthy, and wise.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Benjamin Franklin"
 
     },
     {
         "id": 162,
         "Quote": "[I]f a sparrow cannot fall to the ground without God’s knowledge, ‘can an empire rise without his aid?'",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Benjamin Franklin"
 
     },
     {
         "id": 163,
         "Quote": "Laughing at our mistakes can lengthen our own life. Laughing at someone else’s can shorten it.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Cullen Hightower"
 
     },
     {
         "id": 164,
         "Quote": "A wise man knows when to shut up",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "David Johanson"
 
     },
     {
         "id": 165,
         "Quote": "Tell a man there are trillions of stars in the universe, and he’ll believe you. Tell him there’s wet paint on the wall, and he’ll touch it just to be sure.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Dieter F. Uchtdorf"
 
     },
     {
         "id": 166,
         "Quote": "O be wise! What can I say more?",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Jacob 6:12"
 
     },
     {
         "id": 167,
         "Quote": "If any of you lack wisdom, let him ask of God, that giveth to all men liberally, and upbraideth not; and it shall be given him",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "James 1:5)"
 
     },
     {
         "id": 168,
         "Quote": "Simplicity is the ultimate sophistiation",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Leonardo Da Vinci"
 
     },
     {
         "id": 169,
         "Quote": "Sometimes, I worry about being a success in a mediocre world.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Lily Tomlin"
 
     },
     {
         "id": 170,
         "Quote": "Good is the enemy of best",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Lynn G. Robbins"
 
     },
     {
         "id": 171,
         "Quote": "If the lessons of history teach us anything it is that nobody learns the lessons that history teaches us.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Unknown"
 
     },
     {
         "id": 172,
         "Quote": "The art of being wise is the art of knowing what to overlook.",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "William James"
 
     },
@@ -1226,7 +1232,7 @@ var Quote_List[
         "Quote": "Without hard work, nothing grows but weeds.",
         "Topic": [
             "Diligence",
-            "Words of Wisdom"
+            "Words-of-Wisdom"
         ],
         "Author": "Gordon B. Hinkley"
 
@@ -1234,8 +1240,76 @@ var Quote_List[
     {
         "id": 179,
         "Quote": "When it comes to hating, gossiping, ignoring, ridiculing, holding grudges, or wanting to cause harm, please apply the following: STOP IT!",
-        "Topic": ["Words of Wisdom"],
+        "Topic": ["Words-of-Wisdom"],
         "Author": "Dieter F. Uchtdorf"
+    },
+    {
+        "id": 180,
+        "Quote": "To give anything less than your best is to sacrifice the gift.",
+        "Topic": ["Words-of-Wisdom"],
+        "Author": "Steve Prefontaine (America's greatest distance runner)"
+    },
+    {
+        "id": 181,
+        "Quote": "Like the intense fire that transforms iron into steel, as we remain faithful, we are spiritually refined and strengthened",
+        "Topic": ["Adversity"],
+        "Author": "Neil L. Andersen"
+    },
+    {
+        "id": 182,
+        "Quote": "FEAR has two meanings - Forget Everything and Run OR Face Everything and Rise. The choice is yours.",
+        "Topic": ["Words-of-Wisdom"],
+        "Author": "Unknown"
+},
+    {
+        "id": 183,
+        "Quote": "PUSH - Persist Until Success Happens",
+        "Topic": ["Diligence"],
+        "Author": "Unknown"
+},
+    {
+        "id": 184,
+        "Quote": "If you can't fly, then run. If you can't run, then walk. If you can't walk, then crawl, but whatever you do, you have to keep moving forward.",
+        "Topic": ["Diligence",
+             "Words-of-Wisdom"],
+        "Author": "Martin Luther King Jr."
+},
+    {
+        "id": 185,
+        "Quote": "I can do all things through christ who strengthens me.",
+        "Topic": ["Diligence"],
+        "Author": "Phillipians 4:13"
+},
+    {
+        "id": 186,
+        "Quote": "Let us not pray to be sheltered from dangers but to be fearless when facing them.",
+        "Topic": ["Prayer"],
+        "Author": "Tagore"
+},
+    {
+        "id": 187,
+        "Quote": "To give anything less than your best is to sacrifice the gift.",
+        "Topic": ["Words-of-Wisdom"],
+        "Author": "Steve Prefontaine (America's greatest distance runner)"
+},
+    {
+        "id": 188,
+        "Quote": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+        "Topic": ["Words-of-Wisdom",
+                  "Education"],
+        "Author": "Ghandi"
+},
+    {
+        "id": 189,
+        "Quote": "Better to keep your mouth shut and people think you are a fool than to speak out and remove all doubt.",
+        "Topic": ["Words-of-Wisdom"],
+        "Author": "Abraham Lincoln"
+},
+    {
+        "id": 190,
+        "Quote": "An eye for an eye ends up making the whole world blind.",
+        "Topic": ["Words-of-Wisdom"],
+        "Author": "Ghandi"
+}
 
-    }
 ]
