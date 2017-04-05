@@ -42,13 +42,16 @@ footer {
     padding: 0em;
     margin: 0em;
 }
+
 header #primary_nav_wrap {
     opacity: 1;
 }
+
 a {
     text-decoration-style: none;
     color: white;
 }
+
 h1 {
     text-decoration: none;
     background-color: black;
@@ -58,106 +61,102 @@ h1 {
 html {
     height: 100%;
 }
+
 body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 main {
     flex: 1;
 }
 
+
 /* End of Basic Media Rules*/
+
 
 /* creating a navigation menu */
 
-#primary_nav_wrap
-{
-    margin:1em;
+#primary_nav_wrap {
+    margin: 1em;
     background-color: black;
     opacity: 1;
 }
 
-#primary_nav_wrap ul
-{
+#primary_nav_wrap ul {
     display: inline-flex;
     justify-content: space-around;
-    list-style:none;
-    position:relative;
-    float:left;
-    margin:0;
-    padding:0;
+    list-style: none;
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
     background-color: black;
     width: 100%;
 }
 
-#primary_nav_wrap ul a
-{
-    display:block;
-    color:white;
-    text-decoration:none;
-    font-weight:700;
-    font-size:.75em;
-    line-height:2em;
-    padding:0 .94em;
-    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+#primary_nav_wrap ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: .75em;
+    line-height: 2em;
+    padding: 0 .94em;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: black;
 }
 
-#primary_nav_wrap ul li
-{
-    position:relative;
-    float:left;
-    margin:0;
-    padding:0;
+#primary_nav_wrap ul li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
-#primary_nav_wrap ul li.current-menu-item
-{
-    background:black
+#primary_nav_wrap ul li.current-menu-item {
+    background: black
 }
 
-#primary_nav_wrap ul li:hover
-{
-    background:#f6f6f6;
+#primary_nav_wrap ul li:hover {
+    background: #f6f6f6;
     border: red;
 }
 
-#primary_nav_wrap ul ul
-{
-    display:none;
-    position:absolute;
-    top:100%;
-    left:0;
-    background:#fff;
-    padding:0
+#primary_nav_wrap ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0
 }
 
-#primary_nav_wrap ul ul li
-{
-    float:none;
-    width:12.5em;
+#primary_nav_wrap ul ul li {
+    float: none;
+    width: 12.5em;
 }
 
-#primary_nav_wrap ul ul a
-{
-    line-height:120%;
-    padding:.625em .94em;
+#primary_nav_wrap ul ul a {
+    line-height: 120%;
+    padding: .625em .94em;
 }
 
-#primary_nav_wrap ul ul ul
-{
-    top:0;
-    left:100%
+#primary_nav_wrap ul ul ul {
+    top: 0;
+    left: 100%
 }
 
-#primary_nav_wrap ul li:hover > ul
-{
-    display:block
+#primary_nav_wrap ul li:hover>ul {
+    display: block
 }
+
+
 /* Navigation Menu Ended*/
-/* Beginning of Footer Creation */
 
+
+/* Beginning of Footer Creation */
 
 footer ul {
     background-color: black;
@@ -200,11 +199,10 @@ footer ul li a:hover {
 }
 
 
-
-
 /* creating a navigation menu */
-/* Beginning of Footer Creation */
 
+
+/* Beginning of Footer Creation */
 
 footer ul {
     background-color: black;
@@ -246,17 +244,15 @@ footer ul li a:hover {
 }
 
 
-
 }
 
-
 /* Stuff for the quote div */
-
 h1 {
     text-align: center;
     font-family: "Baskerville Old Face";
 }
-.Quote-container, .button-container {
+.Quote-container,
+.button-container {
     max-width: 60%;
     margin: 0 auto;
     text-align: center;
@@ -268,37 +264,26 @@ h1 {
 }
 #Quote-div {
     font-family: "Goudy Old Style";
-    line-height: 2em;
-    font-size: 2em;
+    line-height: 1em;
+    font-size: 1em;
 }
 #Author-div {
     display: inline-block;
-    font-size: 1.3em;
-    margin: 20px 0;
+    font-size: .7em;
+    margin: 10px 0;
     font-weight: bold;
 }
-#Author-div {
-    display: inline-block;
-    font-size: 1.3em;
-    margin: 20px 0;
-    font-weight: bold;
-}
-
-iframe, .btn-generate-quote {
-    display:block;
+iframe,
+.btn-generate-quote {
+    display: block;
     margin: auto;
     vertical-align: top;
-
 }
-
-
-
 @media only screen and (max-width:600px) {
     .toHide {
         display: none;
     }
 }
-
 @media only screen and (min-width:601px) and (max-width:1023px) {
     .toHide {
         display: none;
@@ -307,17 +292,22 @@ iframe, .btn-generate-quote {
 
     }
 }
-
 @media only screen and (min-width:1024px) {
     .toHide {
+        display: inherit
+    }
 
-    }body {
+    body {}
 
+    #Quote-div {
+        font-family: "Goudy Old Style";
+        line-height: 2em;
+        font-size: 2em;
     }
 }
-.toHide {
-        display: inherit;
+    #Author-div {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 20px 0;
+    font-weight: bold;
 }
-
-
-
