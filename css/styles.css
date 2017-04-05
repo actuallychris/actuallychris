@@ -253,7 +253,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    background-color: blue;
+    background-color: dodgerblue;
     color: white;
     font-weight: bold;
     display: flex;
@@ -261,8 +261,7 @@ footer ul li a:hover {
     border-radius: 10px;
 }
 
-footer {
-    display:inherit;
+
 
 }
 
@@ -295,8 +294,10 @@ h1 {
     font-weight: bold;
 }
 iframe, .btn-generate-quote {
-    margin: 20px 10px;
+    display:block;
+    margin: auto;
     vertical-align: top;
+
 }
 
 
