@@ -55,16 +55,17 @@ h1 {
     color: white;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 3em;
-    margin: auto;
-    max-height: 2em;
-    height: 2em;
+html {
+    height: 100%;
 }
-
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
 
 /* End of Basic Media Rules*/
 
