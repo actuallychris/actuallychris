@@ -42,9 +42,12 @@ footer {
     padding: 0em;
     margin: 0em;
 }
+header #primary_nav_wrap {
+    opacity: 1;
+}
 a {
     text-decoration-style: none;
-    color: lightblue;
+    color: white;
 }
 h1 {
     text-decoration: none;
@@ -58,35 +61,12 @@ footer {
     right: 0;
     bottom: 0;
     margin: auto;
+    max-height: 2em;
+    height: 2em;
 }
 
 
 /* End of Basic Media Rules*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* creating a navigation menu */
 
@@ -215,6 +195,7 @@ footer ul li a:hover {
     display: flex;
     align-items: stretch;
     border-radius: 10px;
+    height: 1em;
 }
 
 
@@ -312,19 +293,24 @@ iframe, .btn-generate-quote {
 
 
 @media only screen and (max-width:600px) {
-    body {
-
+    .toHide {
+        display: none;
     }
 }
 
 @media only screen and (min-width:601px) and (max-width:1023px) {
+    .toHide {
+        display: none;
+    }
     body {
 
     }
 }
 
 @media only screen and (min-width:1024px) {
-    body {
+    .toHide {
+        display: none;
+    }body {
 
     }
 }
