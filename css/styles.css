@@ -295,6 +295,13 @@ h1 {
     margin: 20px 0;
     font-weight: bold;
 }
+#Author-div {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
 iframe, .btn-generate-quote {
     display:block;
     margin: auto;
