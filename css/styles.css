@@ -53,6 +53,7 @@ h1 {
 }
 
 footer {
+    position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
@@ -138,6 +139,7 @@ footer {
 #primary_nav_wrap ul li:hover
 {
     background:#f6f6f6;
+    border: red;
 }
 
 #primary_nav_wrap ul ul
@@ -273,7 +275,7 @@ h1 {
     font-family: "Baskerville Old Face";
 }
 .Quote-container, .button-container {
-    max-width: 800px;
+    max-width: 60%;
     margin: 0 auto;
     text-align: center;
 }
@@ -302,7 +304,24 @@ iframe, .btn-generate-quote {
 
 
 
-@media
+@media only screen and (max-width:600px) {
+    body {
+
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:1023px) {
+    body {
+
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    body {
+
+    }
+}
+
 
 
 

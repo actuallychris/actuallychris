@@ -34,7 +34,7 @@ h1 a {
 
 header,
 footer {
-    opacity: .8;
+    opacity: 0;
     background-color: beige;
     padding: 0em;
     margin: 0em;
@@ -45,7 +45,7 @@ header h2 {
 }
 
 a {
-    text-decoration: underline;
+    text-decoration: none;
     color: darkslategrey;
 }
 

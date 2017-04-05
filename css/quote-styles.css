@@ -37,7 +37,9 @@
     background-color: aliceblue;
 }
 
-#primary_nav_wrap ul li:hover {}
+#primary_nav_wrap ul li:hover {
+    border-color: red;
+}
 
 #primary_nav_wrap ul ul {
     display: none;
