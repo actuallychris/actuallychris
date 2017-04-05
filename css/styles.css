@@ -315,7 +315,9 @@ iframe, .btn-generate-quote {
 
     }
 }
-
+.toHide {
+        display: inherit;
+}
 
 
 
