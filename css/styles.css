@@ -11,7 +11,8 @@ body {
     margin: 0;
     padding: 0em;
     font-size: 20px;
-    color: dodgerblue;
+    color: black;
+    background-color: dodgerblue;
 }
 
 h1,
@@ -54,6 +55,7 @@ h1 {
 footer {
     left: 0;
     right: 0;
+    bottom: 0;
     margin: auto;
 }
 
@@ -263,6 +265,40 @@ footer {
     display:inherit;
 
 }
+
+
+/* Stuff for the quote div */
+
+h1 {
+    text-align: center;
+    font-family: "Baskerville Old Face";
+}
+.Quote-container, .button-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Quote-container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #EFEFEF;
+}
+#Quote-div {
+    font-family: "Goudy Old Style";
+    line-height: 2em;
+    font-size: 2em;
+}
+#Author-div {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 20px 0;
+    font-weight: bold;
+}
+iframe, .btn-generate-quote {
+    margin: 20px 10px;
+    vertical-align: top;
+}
+
 
 
 @media
