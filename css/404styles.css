@@ -80,7 +80,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     display: flex;
-    color: white;
+    color: red;
     text-align: center;
     padding: .33em 20%;
     flex-wrap: wrap;

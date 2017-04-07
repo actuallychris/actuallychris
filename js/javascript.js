@@ -17,12 +17,12 @@ function search(nameVal, myArray) {
     var newArray = [];
     for (var i = 0; i < myArray.length; i++) {
         console.log(myArray[i].author);
-        /*if (myArray[i].author.split(" ").pop() === nameVal) {
+        if (myArray[i].author.split(" ").pop() === nameVal) {
             newArray.push(myArray[i]);
         }
         else if (myArray[i].topic.split(" ").pop() === nameVal) {
             newArray.push(myArray[i]);
-        }*/
+        }
     }
     return newArray;
 }
